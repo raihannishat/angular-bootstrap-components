@@ -1,0 +1,31 @@
+<section>
+    <div class="sidebar-nav">
+        <nav class="navbar navbar-dark bg-primary fixed-top">
+            <div class="container">
+                <!-- Mobile Menu Toggle Button -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+      
+                <!-- Menus List -->
+                <div class="offcanvas offcanvas-start shadow" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                  <div class="offcanvas-body">
+                        <ul class="navbar-nav">
+                            <li><a routerLink="components/accordion"><i class="bi bi-box2"></i> <span class="item-text">Accordion</span></a></li>
+                            <li><a routerLink="components/alerts"><i class="bi bi-check-circle"></i> <span class="item-text">Alerts</span></a></li>
+                            <li><a routerLink="components/badges"><i class="bi bi-badge-3d"></i> <span class="item-text">Badges</span></a></li>
+                            <li><a routerLink="components/button"><i class="bi bi-menu-button"></i> <span class="item-text">Buttons</span></a></li>
+                            <li><a routerLink="components/button-group"><i class="bi bi-collection"></i> <span class="item-text">Button group</span></a></li>
+                            <li><a routerLink="components/card"><i class="bi bi-wallet2"></i> <span class="item-text">Cards</span></a></li>
+                            <li><a routerLink="components/carousel"><i class="bi bi-file-earmark-easel"></i> <span class="item-text">Carousel</span></a></li>
+                            <li><a routerLink="components/scrollspy"><i class="bi bi-fullscreen"></i> <span class="item-text">Scrollspy</span></a></li>
+                            <li><a routerLink="components/spinners"><i class="bi bi-arrow-repeat"></i> <span class="item-text">Spinners</span></a></li>
+                        </ul>
+                  </div>
+                </div>      
+            </div>
+        </nav>
+      </div>    
+</section>
+
+<router-outlet></router-outlet>
